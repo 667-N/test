@@ -1,0 +1,49 @@
+  margin: 0;
+}
+
+.illustration {
+  max-width: 100%;
+  max-height: var(--image-max-width);
+  margin-top: var(--image-margin);
+}
+
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  background: #bef0ff;
+  border: 1px solid #bef0ff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  transition: 500ms;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.btn--remix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  background-image: url("https://cdn.glitch.global/9859eb00-9415-4913-a3eb-a243af14a224/IMG_5645.jpeg?v=1741200894036");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border: none;
+}
+
+img {
+  border: #ff5733;
+  border-radius: 15px;
+  max-width: 100%;
+}
